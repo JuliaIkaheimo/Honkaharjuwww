@@ -3,9 +3,7 @@ body 		{
 		font-size: 12px;
 		text-align: left;
 		color: black;
-		background-image: url("images/bg2.png");
-        background-repeat: repeat-x;
-        background-color: #b6b6b6;
+		background-image: url("https://domezi20.github.io/tomi_suutariwww/images/drone2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center;
 }
 #background { 
 	background-image: url("images/puu.png");
