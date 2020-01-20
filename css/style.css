@@ -6,7 +6,7 @@ body 		{
 		background-image: url("https://domezi20.github.io/tomi_suutariwww/images/drone2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center;
 }
 #background { 
-	background-image: url("images/puu.png");
+	background-image: url(../images/puu.png);
 	background-repeat: repeat-x;
 	margin: -8px;	
 }		
@@ -22,19 +22,18 @@ padding:25px 50px;
 		height: 820px;
 		margin: 0 auto;
         padding: 50px 0px;
-        background-color: #4e4a3f;
 		}
 #header{
 		width: 900px;
 		height: 396px;
-        background-image: url("images/header.png");
+        background-image: url(../images/header.png);
         background-color: #493a0c;
 		}
 #linkbar	{
 		width: 900px; 
 		padding-top:30px;
 		height: 46px;
-        background-image: url("images/links.png");
+        background-image: url(../images/links.png);
         background-color: #997a1f;
 		text-align: center;
 }
@@ -48,6 +47,6 @@ padding:25px 50px;
 		width: 900px;
 		padding-top:30px;
 		height: 42px;
-		background-image: url("images/footer.png");
+		background-image: url(../images/footer.png);
 		text-align: center;
 		}
