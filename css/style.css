@@ -3,12 +3,12 @@ body 		{
 		font-size: 12px;
 		text-align: left;
 		color: black;
-		background-image: url("images/bg2.png");
+		background-image: url("/images/bg2.png");
         background-repeat: repeat-x;
         background-color: #b6b6b6;
 }
 #background { 
-	background-image: url("images/puu.png");
+	background-image: url("/images/puu.png");
 	background-repeat: repeat-x;
 	margin: -8px;	
 }		
