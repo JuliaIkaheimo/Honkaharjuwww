@@ -2,14 +2,9 @@ body 		{
 		font-family: Arial; 
 		font-size: 12px;
 		text-align: left;
-		color: black;
-		background-image: url(../images/drone2.png); background-repeat: no-repeat; background-size: cover; background-position: center center;
+		color: black;	
 }
-#background { 
-	background-image: url(../images/puu.png);
-	background-repeat: repeat-x;
-	margin: -8px;	
-}		
+
 .otsikko { font-family: 'Lilita One', cursive;  font-size:24px; font-weight:bold; color:#8a3d16; padding-top:10px;}
 a:link { font-family: 'Lilita One', cursive; text-decoration: none; font-size: 18px; font-weight:bold; color: white; margin: 20px;}
 a:hover { font-family: 'Lilita One', cursive; text-decoration: none; font-size: 18px; font-weight:bold; color: #8a3d16; margin: 20px;} 
@@ -18,35 +13,29 @@ width:60%;
 padding:25px 50px;
 }
 #helahoito 	{
-		width: 900px;
 		height: 820px;
 		margin: 0 auto;
-        padding: 50px 0px;
 		}
 #header{
-		width: 900px;
 		height: 396px;
-        background-image: url(../images/header.png);
+		background-image: url(../images/drone2.png); background-repeat: no-repeat; background-size: cover; background-position: center center;
         background-color: #493a0c;
 		}
 #linkbar	{
-		width: 900px; 
 		padding-top:30px;
 		height: 46px;
-        background-image: url(../images/links.png);
-        background-color: #997a1f;
+		background-color: #000000;
+		opacity: 0.5;
 		text-align: center;
 }
 
 #tila{
-		width: 900px;
 		height: 350px;
 		background-color: #f3efe3;
 		}
 #footer	{
-		width: 900px;
 		padding-top:30px;
 		height: 42px;
-		background-image: url(../images/footer.png);
+        background-image: url(../images/links.png);
 		text-align: center;
 		}
