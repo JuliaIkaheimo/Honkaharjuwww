@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Honkaharju</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" height="33" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Etusivu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hinnasto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Aktiviteetit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kuvia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Varauskalenteri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yhteystiedot</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+            </div>
+          </div>
+        </nav>
+
+
+        <div class="row image"></div>
+        </div> <!-- Tomin pohja loppuu-->
+
+        <div class="container">
+          <div class="row">
+
+
+        <div class="col-sm-5">
+        <table id="customers">
+          <tr>
+            <th>Henkilö</th>
+            <th>Puhelin</th>
+            <th>Sähköposti</th>
+          </tr>
+          <tr>
+            <td>Tomi Suutari</td>
+            <td>040495938284</td>
+            <td>toimi.suutari@student.hamk.fi</td>
+          </tr>
+
+          </table>
+        </div>
+
+        <div class="col-sm-5">
+          
+          <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-left my-4">Ota yhteyttä</h2>
+  
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                      <div class="md-form mb-2">
+                        <label for="name" class="">Nimi:</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                      <div class="md-form mb-2">
+                        <label for="email" class="">Sähköposti:</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form"><br>
+                        <label for="message">Viesti:</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+          <br>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Lähetä</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+     
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+        </div>
+
+</div>
+</div>
+
+
+        </body>
+        </html>
