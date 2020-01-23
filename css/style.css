@@ -1,15 +1,31 @@
+.hover {
+  color: hotpink;
+}
+.active {
+  color: blue;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
 }
 .header{
     color: white;
 }
+h1{
+  text-shadow: 2px 2px black;
+}
 
-.image {
-    background-image: url(../images/drone2.png); 
+.image1 {
+    background-image: url(../images/drone2.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center;
+}
+.image2 {
+  background-image: url(../images/drone1.png); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
 }
 
 .yotsikko{
