@@ -1,29 +1,18 @@
 body 		{
-    font-family: Arial; 
-    font-size: 12px;
-    text-align: left;
-    color: black;	
+
 }
 
 h1{
     font-size: 32px;
 
 }
-p{
-    text-align: left;
+.header{
+    color: white;
 }
 
-.bluebg {
-    background-color: rgb(42, 42, 75);
-}
-footer	{
-    padding-top:15px;
-    height: 42px;
-    background-image: url(../images/links.png);
-    text-align: center;
-    }
 .image {
     background-image: url(../images/drone2.png); background-repeat: no-repeat; background-size: cover; background-position: center center;
+    opacity: 0,1;
     min-height: 300px;
 }
 
