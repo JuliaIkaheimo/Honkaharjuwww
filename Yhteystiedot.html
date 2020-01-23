@@ -8,12 +8,12 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" height="33" alt=""></a>
+            <a class="navbar-brand" href="#">Honkaharju-hirsimökki</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,14 +35,33 @@
                   <a class="nav-link" href="yhteystiedot.html">Pyydä tarjous</a>
                 </li>
               </ul>
-              <span class="navbar-text">
-                Navbar text with an inline element
-              </span>
+              
+              <!-- kieliasetuksen koodi alkaa tästä-->
+              <li class="dropdown language-selector">
+                Language  
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+                  
+                </a>
+                <ul class="dropdown-menu pull-right">
+                  <li>
+                    <a href="#">
+                      
+                      <span>English</span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="#">
+                      
+                      <span>suomi</span>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </li>
+              <!-- ja loppuu tänne :) t: amal -->
             </div>
           </div>
         </nav>
-
-
         <div class="row image"></div>
         </div> <!-- Tomin pohja loppuu-->
 
@@ -50,21 +69,8 @@
           <div class="row">
 
 
-        <div class="col-sm-5">
-        <table id="customers">
-          <tr>
-            <th>Henkilö</th>
-            <th>Puhelin</th>
-            <th>Sähköposti</th>
-          </tr>
-          <tr>
-            <td>Tomi Suutari</td>
-            <td>040495938284</td>
-            <td>tomi.suutari@student.hamk.fi</td>
-          </tr>
-
-          </table>
-        </div>
+            
+        
 
         <div class="col-sm-5">
           
@@ -141,6 +147,12 @@
 <!--Section: Contact v.2-->
 
         </div>
+<div class="col-sm-6">
+<h3>Vapaa yhteydenotto:</h3><br>
+<h4><b>Tomi Suutari</b></h4>
+<p class="teksti">+358 (0)45 5853 577</p>
+<p class="teksti">tomi.suutari@example.fi</p>
+</div>
 
 </div>
 </div>
