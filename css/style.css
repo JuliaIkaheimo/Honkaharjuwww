@@ -1,18 +1,13 @@
-body 		{
 
-}
-
-h1{
-    font-size: 32px;
-
-}
 .header{
     color: white;
 }
 
 .image {
-    background-image: url(../images/drone2.png); background-repeat: no-repeat; background-size: cover; background-position: center center;
-    opacity: 0,1;
+    background-image: url(../images/drone2.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
     min-height: 300px;
 }
 
