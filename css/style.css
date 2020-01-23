@@ -27,6 +27,30 @@ h1{
   background-size: cover; 
   background-position: center center;
 }
+.image3 {
+  background-image: url(../images/1.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image4 {
+  background-image: url(../images/2.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image5 {
+  background-image: url(../images/3.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image6 {
+  background-image: url(../images/4.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
 
 .yotsikko{
   padding-top: 30px;
