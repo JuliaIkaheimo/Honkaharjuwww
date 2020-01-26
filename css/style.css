@@ -69,4 +69,8 @@ main{
   padding-top: 60px;
 }
 
+table tr.separator {
+   height: 30px; 
+  }
+
 
