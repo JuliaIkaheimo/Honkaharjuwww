@@ -1,3 +1,4 @@
+
 .hover {
   color: hotpink;
 }
@@ -63,4 +64,44 @@ main{
 
 .teksti{
   font-size: larger;
+}
+
+.pad60{
+  padding-top: 60px;
+}
+
+
+table{
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 0.5;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
