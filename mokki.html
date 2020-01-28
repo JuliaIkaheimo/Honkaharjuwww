@@ -41,26 +41,29 @@
               
               <!-- kieliasetuksen koodi alkaa tästä-->
               <li class="dropdown language-selector">
+                  
                 Change Language  
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-                  
-                </a>
-                <ul class="dropdown-menu pull-right">
-                  <li>
-                    <a href="#">
-                      
-                      <span>  English</span>
-                    </a>
-                  </li>
-                  <li class="active">
-                    <a href="#">
-                      
-                      <span>  Suomi</span>
-                    </a>
-                  </li>
-                  
-                </ul>
-              </li>
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+                   <img src="images/fin_flag.png" width="16" height="16" />
+                
+               </a>
+               <ul class="dropdown-menu pull-right">
+                   <li>
+                       <a href="mokki-en.html" style="color:black">
+                         <img src="images/en_flag.png" width="16" height="16"  />
+                         
+                           English
+                       </a>
+                     </li>
+                     <li class="active">
+                       <a href="mokki.html" style="color:black">
+                         <img  src="images/fin_flag.png" width="16" height="16"/>
+                         
+                           Suomi
+                       </a>
+                     </li>
+                     </ul>
+                     </li>
               <!-- ja loppuu tänne :) t: amal -->
             </div>
           </div>
@@ -78,27 +81,162 @@
             <!-- Example row of columns -->
             <div class="row">
               <div class="col-md-4">
-                <h2>Upea hirsimökki</h2>
-                <p>Honkaharju on vuonna 1992 Sotkamon Tipasojalle rakennettu kolmikerroksinen hirsimökki, joka tarjoaa upeat puitteet niin yrityksille kuin perheillekkin, 
-                  asuinpinta-alaa on jopa 250m²!</p>
-                <p><a class="btn btn-secondary" href="mokki.html" role="button">Lue lisää mökistä &raquo;</a></p>
+                <h2>Info</h2>
+                
+                  <table>
+                    <tr>
+                     
+                    </tr>
+                    <tr>
+                      <td>Osoite</td>
+                      
+                      <td>	Kätkänkuja 4, 99130 Kittilä <br>
+                        Mökki sijaitsee arvostetulla Levillä Kätkän alueella päättyvän kadun varrella.</td>
+                    </tr>
+                    <tr>
+                      <td>Mökin rakennusvuosi</td>
+                      
+                      <td>2012</td>
+                    </tr>
+                    <tr>
+                      <td>Huoneet</td>
+                      
+                      <td>tilava sisääntuloaula<br>
+                        6 erillistä makuutilaa jossa runkopatjasängyt<br>
+                        2 x keittiö<br>
+                        1 x kodinhoitohuone<br>
+                        2 x sauna<br>
+                        2 x pesutilat<br>
+                        4 x wc<br>
+                        autopaikkoja pihassa 6 kpl<br>
+                        mökki sopii loistavasti niin yritystilaisuuksiin kuin perheidenkin käyttöön</td>
+                    </tr>
+                    <tr>
+                      <td>Pinta-ala</td>
+                     
+                      <td>asuinpinta-alaa 160 m² <br>
+                        noin 40 m² alle 1,6 m korkuista tilaa <br>
+                        lattiapinta-alaa yhteensä 200 m² <br>
+                        mökistä voidaan erottaa 30 m² yksiö, jossa myös täydellinen varustus asumiseen</td>
+                    </tr>
+                  </table>
               </div>
-              <div class="col-md-4">
-                <h2>Hinnasto</h2>
-                <p>Mökin hinnat vaihtelevat 500eurosta 750euroon viikonloppu.<br>
-                Mökille on myös mahdollista käyttää paljua 150euroa viikonloppu.</p>
-                <p><a class="btn btn-secondary" href="kalenteri.html" role="button">Kysy tarjous! &raquo;</a></p>
+              
+             <div class="col">
+              <div class="row">
+                <div class="column">
+                  <img src="images/drone2.jpg" style="width:150px;height:150px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                  <img src="images/drone2.jpg" style="width:150px;height:150px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                  <img src="images/drone2.jpg" style="width:150px;height:150px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                  <img src="images/drone2.jpg" style="width:150px;height:150px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
               </div>
-              <div class="col-md-4">
-                <h2>Vuokattiin vain 20km</h2>
-                <p>Laskuloma, perheloma, latuloma, luontoloma – Reippaillen tai fiilistellen. Vuoden 2019 matkailualueeksi valitussa Vuokatissa tyyli on vapaa. Tutustu moniin mahdollisuuksiimme ja tule vaaramaisemiin!</p>
-                <p><a class="btn btn-secondary" href="https://vuokatti.fi/" role="button">Lue lisää aktiviteeteista! &raquo;</a></p>
+              
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/drone2.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/drone2.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/drone2.jpg" style="width:100%">
+                  </div>
+                  
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/drone2.jpg" style="width:100%">
+                  </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+              
+              
+                  <div class="column">
+                    <img class="demo cursor" src="images/drone2.jpg" style="width:100%" onclick="currentSlide(1)" alt="txt 1">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/drone2.jpg" style="width:100%" onclick="currentSlide(2)" alt="txt 2">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/drone2.jpg" style="width:100%" onclick="currentSlide(3)" alt="txt 3">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/drone2.jpg" style="width:100%" onclick="currentSlide(4)" alt="txt 4">
+                  </div>
+                </div>
               </div>
-            </div>
-    
-            <hr>
-    
-          </div> <!-- /container -->
+                 <br>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935.7747262461671!2d24.478147516206143!3d60.97582128496759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468e5d7f1a184209%3A0xe69734d5c10042bd!2sH%C3%A4meen%20ammattikorkeakoulu%20(HAMK)%2C%20H%C3%A4meenlinnan%20korkeakoulukeskus!5e0!3m2!1sfi!2sfi!4v1580214295908!5m2!1sfi!2sfi"
+               width="40%" height="40%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+
+              <script>
+                function openModal() {
+                  document.getElementById("myModal").style.display = "block";
+                }
+                
+                function closeModal() {
+                  document.getElementById("myModal").style.display = "none";
+                }
+                
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("demo");
+                  var captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
+                
+
+      
+
+  
+ 
+
+  
+                
+               <!-- /container -->
     
         </main>
     
