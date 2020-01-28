@@ -1,40 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
-	<link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
-	<title>Honkaharju</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Honkaharju on hulppea hirsimökki Sotkamossa järvenrannalla vain 20kilometrin päässä Vuokatista">
+    <title>Honkaharju - hulppea hirsimökki järvenrannalla</title>
+    <!-- Downloads font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-	<div id="background">
-	<div id="helahoito">
-		<div id="header"></div>
-		<div id="linkbar">
-			<a href="index.html">Etusivu</a>
-			<a href="mokki.html">M&ouml;kki</a>
-			<a href="aktiviteetit.html">Aktiviteetit</a>
-			<a href="kuvat.html">Kuvat</a>
-			<a href="hinnasto.html">Hinnasto</a>
-			<a href="ajoohjeet.html">Ajo-ohjeet</a>
-			<a href="yhteystiedot.html">Yhteystiedot</a>
-		</div>
-		<div id="tila">
-				<div id="teksti">
-				<div class="otsikko">Tervetuloa Honkaharjun kotisivuille!</div>
-				<hr />
-				Olet saapunut Honkaharju-lomam&#246;kin kotisivuille! <br />
-				Honkaharju on rauhaisa ja tilava lomam&#246;kki, joka soveltuu esim. yritysten kokous- ja/tai virkistysk&#228;ytt&#246;&#246;n, sek&#228; rauhallisiin perhelomiin.
-				Honkaharjussa on vietetty monia juhlia, vieraita parhaimmillaan ollut 50 henke&#228;, mutta t&#228;ll&#228; hetkell&#228; nukkumapaikkoja on vain 12 s&#228;nkyin&#228; ja vuodesohvina.
-				Suosittelemme esimerkiksi moottorikelkkareissua Honkaharjulle! Reitti on todella hyv&#228; ja mukava ajaa! <br />
-				KYSY LIS&#196;&#196;!<br />
-				</div>
-		</div>
-		<div id="footer"></div>	
-	</div>
-	</div>	
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">Honkaharju-hirsimökki</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Etusivu <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mokki.html">Mökki</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aktiviteetit.html">Aktiviteetit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kalenteri.html">Varauskalenteri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="varausehdot.html">Varausehdot</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="yhteystiedot.html">Pyydä tarjous</a>
+                </li>
+              </ul>
+              
+              <!-- kieliasetuksen koodi alkaa tästä-->
+              <li class="dropdown language-selector">
+                 Change Language  
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+                  
+                </a>
+                <ul class="dropdown-menu pull-right">
+                    <li>
+                        <a href="en.html" style="color:black">
+                          <img src="images/en_flag.png" width="16" height="16"  />
+                          
+                            English
+                        </a>
+                      </li>
+                      <li class="active">
+                        <a href="index.html" style="color:black">
+                          <img  src="images/fin_flag.png" width="16" height="16"/>
+                          
+                            Suomi
+                        </a>
+                      </li>
+              <!-- ja loppuu tänne :) t: amal -->
+            </div>
+          </div>
+        </nav>
+        <main role="main">
+
+          <!-- Main jumbotron for a primary marketing message or call to action -->
+          <div class="jumbotron image2">
+            <div class="container">
+              <h1 class="display-3 header">Honkaharju</h1>
+              <p class="header">Honkaharju on vuonna 1992 Sotkamon Tipasojalle rakennettu kolmikerroksinen hirsimökki, <br>
+                joka tarjoaa upeat puitteet niin yrityksille kuin perheillekkin, asuinpinta-alaa on jopa 250m²!</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+          </div>
+    
+          <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Upea hirsimökki</h2>
+                <p>Honkaharju on vuonna 1992 Sotkamon Tipasojalle rakennettu kolmikerroksinen hirsimökki, joka tarjoaa upeat puitteet niin yrityksille kuin perheillekkin, 
+                  asuinpinta-alaa on jopa 250m²!</p>
+                <p><a class="btn btn-secondary" href="mokki.html" role="button">Lue lisää mökistä &raquo;</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Hinnasto</h2>
+                <p>Mökin hinnat vaihtelevat 500eurosta 750euroon viikonloppu.<br>
+                Mökille on myös mahdollista käyttää paljua 150euroa viikonloppu.</p>
+                <p><a class="btn btn-secondary" href="kalenteri.html" role="button">Kysy tarjous! &raquo;</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Vuokattiin vain 20km</h2>
+                <p>Laskuloma, perheloma, latuloma, luontoloma – Reippaillen tai fiilistellen. Vuoden 2019 matkailualueeksi valitussa Vuokatissa tyyli on vapaa. Tutustu moniin mahdollisuuksiimme ja tule vaaramaisemiin!</p>
+                <p><a class="btn btn-secondary" href="https://vuokatti.fi/" role="button">Lue lisää aktiviteeteista! &raquo;</a></p>
+              </div>
+            </div>
+          </div> <!-- /container -->
+    
+        </main>
+    
+        <footer class="footer py-4 bg-dark text-white-50">
+          <p>Honkaharju-lomamökki Tomi Suutari <br>
+          <a href="mailto:info@honkaharjumokki.fi">info@honkaharjumokki.fi</a> <a href="tel:+358407697905">+358 (0)40 769 7905</a><br>
+          &copy; Honkaharju 2020</p>
+        </footer>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
-

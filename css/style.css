@@ -53,3 +53,120 @@ padding:25px 50px;
 		background-image: url("images/footer.png");
 		text-align: center;
 		}
+
+.hover {
+  color: hotpink;
+}
+.active {
+  color: blue;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.header{
+    color: white;
+}
+h1{
+  text-shadow: 2px 2px black;
+}
+.footer{
+  text-align: center; 
+}
+main{
+  padding-bottom: 75px;
+}
+.image1 {
+    background-image: url(../images/drone2.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+.image2 {
+  background-image: url(../images/drone1.png); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image3 {
+  background-image: url(../images/1.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image4 {
+  background-image: url(../images/2.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image5 {
+  background-image: url(../images/3.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.image6 {
+  background-image: url(../images/4.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+
+.yotsikko{
+  padding-top: 30px;
+}
+
+.teksti{
+  font-size: larger;
+}
+
+.pad60{
+  padding-top: 60px;
+}
+
+
+table{
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 0.5;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.otsikko1tuninki{
+  font-size: 70px;
+  color: rgb(77, 54, 44);
+  text-shadow: 0px 0px black;
+}
+
+.otsikko4tuninki{
+  color: rgb(182, 124, 16);
+}
