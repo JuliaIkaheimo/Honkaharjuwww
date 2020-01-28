@@ -13,37 +13,37 @@ h1{
 main{
   padding-bottom: 75px;
 }
-.image1 {
-    background-image: url(../images/drone2.jpg); 
+.aktiviteetit {
+    background-image: url(../images/vuokatti.png); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center;
 }
-.image2 {
-  background-image: url(../images/drone1.png); 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center center;
-}
-.image3 {
+.mokki {
   background-image: url(../images/1.jpg); 
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center center;
 }
-.image4 {
-  background-image: url(../images/2.jpg); 
+.etusivu {
+  background-image: url(../images/drone2.jpg); 
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center center;
 }
-.image5 {
+.kalenteri {
+  background-image: url(../images/5.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+.varausehdot {
   background-image: url(../images/3.jpg); 
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center center;
 }
-.image6 {
+.yhteystiedot {
   background-image: url(../images/4.jpg); 
   background-repeat: no-repeat; 
   background-size: cover; 
