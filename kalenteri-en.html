@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -20,22 +20,22 @@
 			<div class="collapse navbar-collapse" id="navbarText">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Etusivu</a>
+						<a class="nav-link" href="en.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="mokki.html">Mökki</a>
+						<a class="nav-link" href="mokki-en.html">The Cabin</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aktiviteetit-en.html">Activities</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="aktiviteetit.html">Aktiviteetit <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="kalenteri-en.html">Reservation Calendar <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="kalenteri.html">Varauskalenteri</a>
+						<a class="nav-link" href="varausehdot-en.html">Terms of Booking</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="varausehdot.html">Varausehdot</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="yhteystiedot.html">Pyydä tarjous</a>
+						<a class="nav-link" href="yhteystiedot-en.html">Ask For an Offer</a>
 					</li>
 				</ul><!-- kieliasetuksen koodi alkaa tästä-->
 				<ul class="dropdown language-selector navbar-nav mr-auto">
@@ -43,8 +43,8 @@
 						<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="en.html"><img alt="" height="18" src=
 						"images/en.png" width="18"> English</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="aktiviteetit-en.html"><img alt="" height="18" src="images/en.png" width="18"> English</a> <a class="dropdown-item" href=
-							"aktiviteetit.html"><img alt="" height="18" src="images/fin.png" width="18"> Suomi</a> <a class="dropdown-item" href="rus.html"><img alt="" height="18" src=
+							<a class="dropdown-item" href="kalenteri-en.html"><img alt="" height="18" src="images/en.png" width="18"> English</a> <a class="dropdown-item" href=
+							"kalenteri.html"><img alt="" height="18" src="images/fin.png" width="18"> Suomi</a> <a class="dropdown-item" href="rus.html"><img alt="" height="18" src=
 							"images/rus.png" width="18"> Русский язык</a>
 						</div>
 					</li>
@@ -53,43 +53,70 @@
 		</div>
 	</nav>
 	<main>
-		<div class="jumbotron aktiviteetit">
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron kalenteri">
 			<div class="container">
-				<h1 class="display-3 header">Aktiviteetit</h1>
+				<h1 class="display-3 header">Varauskalenteri</h1>
 			</div>
 		</div>
 		<div class="container">
+			<!-- Example row of columns -->
 			<div class="row">
-				<div class="col-md-6 haaleeharmaabg">
-					<h1 class="otsikko1tuninki">Laskettelu</h1>
-					<h4 class="otsikko4tuninki">Vuokatin rinteet</h4>
-					<p>Vuokatinrinteillä viihtyy koko perhe ja nauttii laskemisen riemuista 13 hyvin hoidetussa rinteessä. Rinteet sopivat niin ensikertalaisille kuin
-					kokeneillekin laskijoille.</p>
-					<p><a class="btn btn-secondary" href="https://vuokatti.fi/palvelut/vuokatinrinteet" role="button">Lue lisää &raquo;</a></p>
-
+				<div class="col-md-12">
+					<div class="month">
+						<ul>
+							<li class="prev">&#10094;</li>
+							<li class="next">&#10095;</li>
+							<li>August<br>
+							<span style="font-size:18px">2017</span></li>
+						</ul>
+					</div>
+					<ul class="weekdays">
+						<li>Mo</li>
+						<li>Tu</li>
+						<li>We</li>
+						<li>Th</li>
+						<li>Fr</li>
+						<li>Sa</li>
+						<li>Su</li>
+					</ul>
+					<ul class="days">
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li><span class="active">10</span></li>
+						<li>11</li>
+						<li>12</li>
+						<li>13</li>
+						<li>14</li>
+						<li>15</li>
+						<li>16</li>
+						<li>17</li>
+						<li>18</li>
+						<li>19</li>
+						<li>20</li>
+						<li>21</li>
+						<li>22</li>
+						<li>23</li>
+						<li>24</li>
+						<li>25</li>
+						<li>26</li>
+						<li>27</li>
+						<li>28</li>
+						<li>29</li>
+						<li>30</li>
+						<li>31</li>
+					</ul>
 				</div>
-				<div class="col-md-6"><img class="img-fluid" alt="Kuva1" src="images/laskettelu.jpg"></div>
 			</div>
-			<div class="row">
-				<div class="col-md-6"><img class="img-fluid " alt="Kuva2" src="images/keilaus.jpg"></div>
-				<div class="col-md-6 haaleeharmaabg">
-					<h1 class="otsikko1tuninki">Keilaus</h1>
-					<h4 class="otsikko4tuninki">Vuokatti Bowling</h4>
-					<p>Vuokatin Bowlingissa keiloja kaadetaan 16 radalla. Radalle saatavat ränniesteet tekevät keilaamisesta helpompaa lapsille.</p>
-					<p><a class="btn btn-secondary" href="http://www.vuokattibowling.fi/" role="button">Lue lisää &raquo;</a></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 haaleeharmaabg">
-					<h1 class="otsikko1tuninki">Moottorikelkkailu</h1>
-					<h4 class="otsikko4tuninki">Vuokatti Safaris</h4>
-					<p>Vuokatti Safaris on täyden palvelun ohjelmatalo. Yksi Suomen monipuolisimmista safariyrityksistä tarjoaa laajan valikoiman elämyksiä, aktiviteetteja ja
-					tekemistä vuodenajasta riippumatta.</p>
-					<p><a class="btn btn-secondary" href="https://www.vuokattisafaris.com/" role="button">Lue lisää &raquo;</a></p>
-				</div>
-				<div class="col-md-6"><img class="img-fluid " alt="Kuva2" src="images/moottorikelkka.jpg"></div>
-			</div>
-		</div>
+			<hr>
+		</div><!-- /container -->
 	</main>
 	<footer class="footer py-4 bg-dark text-white-50">
 		<p>Honkaharju-lomamökki Tomi Suutari<br>
