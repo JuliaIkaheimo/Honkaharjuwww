@@ -7,6 +7,8 @@ body {
 h1{
   text-shadow: 2px 2px black;
 }
+ul {list-style-type: none;}
+
 .footer{
   text-align: center; 
 }
