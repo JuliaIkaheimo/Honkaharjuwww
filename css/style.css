@@ -94,21 +94,25 @@ th, td {
 
 * {
   box-sizing: border-box;
+  
 }
 
 .row > .column {
   padding:  8px;
+  
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+ 
 }
 
 .column {
   float: left;
   width: fit-content;
+ 
 }
 
 /* Modaalin bg */
@@ -132,6 +136,7 @@ th, td {
   margin: auto;
   padding: 0;
   width: 90%;
+  height:auto;
   max-width: 1200px;
 }
 
@@ -240,6 +245,15 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.google{
+ 
+  
+  width: fit-content;
+  height: auto;
+  margin:22px;
+
 }
 
 /* Css for calender */
