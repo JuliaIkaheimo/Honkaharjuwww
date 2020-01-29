@@ -36,18 +36,17 @@
           </li>
           
 				</ul><!-- kieliasetuksen koodi alkaa tästä-->
-				<ul>
-					<li class="dropdown language-selector">Change Language <a class="dropdown-toggle" data-close-others="true" data-toggle="dropdown" href="#"><img height=
-					"16" src="images/fin_flag.png" width="16"></a>
-						<ul class="dropdown-menu pull-right">
-							<li>
-								<a href="mokki-en.html" style="color:black"><img height="16" src="images/en_flag.png" width="16"> English</a>
-							</li>
-							<li class="active">
-								<a href="mokki.html" style="color:black"><img height="16" src="images/fin_flag.png" width="16"> Suomi</a>
-							</li>
-						</ul>
-          </li><!-- ja loppuu tänne :) t: amal -->
+				<ul class="dropdown language-selector navbar-nav mr-auto">
+					<li class="nav-item dropdown">
+						<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="en.html"><img alt="" height="18" src=
+						"images/en.png" width="18"> English</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="mokki-en.html"><img alt="" height="18" src="images/en.png" width="18"> English</a> <a class="dropdown-item" href=
+							"mokki.html"><img alt="" height="18" src="images/fin.png" width="18"> Suomi</a> <a class="dropdown-item" href="rus.html"><img alt="" height="18" src=
+							"images/rus.png" width="18"> Русский язык</a>
+						</div>
+					</li>
+				</ul><!-- ja loppuu tänne :) t: amal -->
           
 				</ul>
 			</div>
@@ -218,8 +217,10 @@
 			</div>
 		</div>
 	</main>
-	<footer class="container">
-		<p>&copy; Honkaharju 2020</p>
+	<footer class="footer py-4 bg-dark text-white-50">
+		<p>Honkaharju-lomamökki Tomi Suutari<br>
+		<a href="mailto:info@honkaharjumokki.fi">info@honkaharjumokki.fi</a> <a href="tel:+358407697905">+358 (0)40 769 7905</a><br>
+		&copy; Honkaharju 2020</p>
 	</footer><!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 	</script> <!-- Popper JS -->
@@ -229,5 +230,6 @@
 	 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
 	</script>
+
 </body>
 </html>
