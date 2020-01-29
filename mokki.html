@@ -12,14 +12,13 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">Honkaharju-hirsimökki</a> <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" class=
-			"navbar-toggler" data-target="#navbarText" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<a class="navbar-brand" href="#">Honkaharju-hirsimökki</a> <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarText" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarText">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="index.html">Etusivu</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="mokki.html">Mökki<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
@@ -37,12 +36,9 @@
 				</ul><!-- kieliasetuksen koodi alkaa tästä-->
 				<ul class="dropdown language-selector navbar-nav mr-auto">
 					<li class="nav-item dropdown">
-						<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="en.html"><img alt="" height="18" src=
-						"images/en.png" width="18"> English</a>
+						<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="en.html"><img alt="" height="18" src="images/en.png" width="18"> English</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="mokki-en.html"><img alt="" height="18" src="images/en.png" width="18"> English</a> <a class="dropdown-item" href=
-							"mokki.html"><img alt="" height="18" src="images/fin.png" width="18"> Suomi</a> <a class="dropdown-item" href="rus.html"><img alt="" height="18" src=
-							"images/rus.png" width="18"> Русский язык</a>
+							<a class="dropdown-item" href="mokki-en.html"><img alt="" height="18" src="images/en.png" width="18"> English</a> <a class="dropdown-item" href="mokki.html"><img alt="" height="18" src="images/fin.png" width="18"> Suomi</a> <a class="dropdown-item" href="rus.html"><img alt="" height="18" src="images/rus.png" width="18"> Русский язык</a>
 						</div>
 					</li>
 				</ul><!-- ja loppuu tänne :) t: amal -->
@@ -91,26 +87,17 @@
 			</div>
 			<div class="col-md-7">
 				<div class="row">
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(1)" src="images/1.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(2)" src="images/2.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(3)" src="images/3.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(4)" src="images/4.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(5)" src="images/5.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(6)" src="images/6.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(7)" src="images/7.jpg" style=
-					"width:120px;height:120px"></div>
-					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(8)" src="images/8.jpg" style=
-					"width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(1)" src="images/1.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(2)" src="images/2.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(3)" src="images/3.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(4)" src="images/4.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(5)" src="images/5.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(6)" src="images/6.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(7)" src="images/7.jpg" style="width:120px;height:120px"></div>
+					<div class="column"><img alt="img" class="hover-shadow cursor" onclick="openModal();currentSlide(8)" src="images/8.jpg" style="width:120px;height:120px"></div>
 				</div>
 				<div class="modal" id="myModal">
-					<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> <span class="close cursor" onclick=
-					"closeModal()">&times;</span>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> <span class="close cursor" onclick="closeModal()">&times;</span>
 					<div class="modal-content">
 						<div class="mySlides">
 						<div class="numbertext">
@@ -147,16 +134,7 @@
 						<div class="caption-container">
 							<p id="caption"></p>
 						</div>
-						<div class="img-thumb-wrapper quickcenter">
-							<img alt="txt 1" class="demo cursor" onclick="currentSlide(1)" src="images/1.jpg" style="width:100%">
-							<img alt="txt 2" class="demo cursor" onclick="currentSlide(2)" src="images/2.jpg" style="width:100%"> 
-							<img alt="txt 3" class="demo cursor" onclick="currentSlide(3)" src="images/3.jpg" style="width:100%"> 
-							<img alt="txt 4" class="demo cursor" onclick="currentSlide(4)" src="images/4.jpg" style="width:100%">
-							<img alt="txt 5" class="demo cursor" onclick="currentSlide(5)" src="images/5.jpg" style="width:100%">
-							<img alt="txt 6" class="demo cursor" onclick="currentSlide(6)" src="images/6.jpg" style="width:100%">
-							<img alt="txt 7" class="demo cursor" onclick="currentSlide(7)" src="images/7.jpg" style="width:100%">
-							<img alt="txt 8" class="demo cursor" onclick="currentSlide(8)" src="images/8.jpg" style="width:100%">
-						</div>
+						<div class="img-thumb-wrapper quickcenter"><img alt="txt 1" class="demo cursor" onclick="currentSlide(1)" src="images/1.jpg" style="width:100%"> <img alt="txt 2" class="demo cursor" onclick="currentSlide(2)" src="images/2.jpg" style="width:100%"> <img alt="txt 3" class="demo cursor" onclick="currentSlide(3)" src="images/3.jpg" style="width:100%"> <img alt="txt 4" class="demo cursor" onclick="currentSlide(4)" src="images/4.jpg" style="width:100%"> <img alt="txt 5" class="demo cursor" onclick="currentSlide(5)" src="images/5.jpg" style="width:100%"> <img alt="txt 6" class="demo cursor" onclick="currentSlide(6)" src="images/6.jpg" style="width:100%"> <img alt="txt 7" class="demo cursor" onclick="currentSlide(7)" src="images/7.jpg" style="width:100%"> <img alt="txt 8" class="demo cursor" onclick="currentSlide(8)" src="images/8.jpg" style="width:100%"></div>
 					</div>
 				</div>
 				<div class="row">
@@ -180,44 +158,44 @@
 	 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
 	</script> <!--scripti lightboxille-->
-
+	 
 	<script>
-	           function openModal() {
-	             document.getElementById("myModal").style.display = "block";
-	           }
-	           
-	           function closeModal() {
-	             document.getElementById("myModal").style.display = "none";
-	           }
-	           
-	           var slideIndex = 1;
-	           showSlides(slideIndex);
-	           
-	           function plusSlides(n) {
-	             showSlides(slideIndex += n);
-	           }
-	           
-	           function currentSlide(n) {
-	             showSlides(slideIndex = n);
-	           }
-	           
-	           function showSlides(n) {
-	             var i;
-	             var slides = document.getElementsByClassName("mySlides");
-	             var dots = document.getElementsByClassName("demo");
-	             var captionText = document.getElementById("caption");
-	             if (n > slides.length) {slideIndex = 1}
-	             if (n < 1) {slideIndex = slides.length}
-	             for (i = 0; i < slides.length; i++) {
-	                 slides[i].style.display = "none";
-	             }
-	             for (i = 0; i < dots.length; i++) {
-	                 dots[i].className = dots[i].className.replace(" active", "");
-	             }
-	             slides[slideIndex-1].style.display = "block";
-	             dots[slideIndex-1].className += " active";
-	             captionText.innerHTML = dots[slideIndex-1].alt;
-	           }
+	              function openModal() {
+	                document.getElementById("myModal").style.display = "block";
+	              }
+	              
+	              function closeModal() {
+	                document.getElementById("myModal").style.display = "none";
+	              }
+	              
+	              var slideIndex = 1;
+	              showSlides(slideIndex);
+	              
+	              function plusSlides(n) {
+	                showSlides(slideIndex += n);
+	              }
+	              
+	              function currentSlide(n) {
+	                showSlides(slideIndex = n);
+	              }
+	              
+	              function showSlides(n) {
+	                var i;
+	                var slides = document.getElementsByClassName("mySlides");
+	                var dots = document.getElementsByClassName("demo");
+	                var captionText = document.getElementById("caption");
+	                if (n > slides.length) {slideIndex = 1}
+	                if (n < 1) {slideIndex = slides.length}
+	                for (i = 0; i < slides.length; i++) {
+	                    slides[i].style.display = "none";
+	                }
+	                for (i = 0; i < dots.length; i++) {
+	                    dots[i].className = dots[i].className.replace(" active", "");
+	                }
+	                slides[slideIndex-1].style.display = "block";
+	                dots[slideIndex-1].className += " active";
+	                captionText.innerHTML = dots[slideIndex-1].alt;
+	              }
 	</script>
 </body>
 </html>
