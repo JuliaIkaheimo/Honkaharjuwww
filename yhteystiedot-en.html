@@ -1,206 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Honkaharju</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Honkaharju</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand" href="#">Honkaharju Cabin</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mokki.html">The Cabin</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="aktiviteetit.html">Activities</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="kalenteri.html">Reservation Calendar</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="yhteystiedot.html">Ask For an Offer</a>
-                </li>
-              </ul>
-              
-              <!-- kieliasetuksen koodi alkaa tästä-->
-              <li class="dropdown language-selector">
-                  
-
-                </a>
-                <ul class="dropdown-menu pull-right">
-                  <li>
-                    <a href="#">
-                      
-                      <span>  English</span>
-                    </a>
-                  </li>
-                  <li class="active">
-                    <a href="#">
-                      
-                      <span>  Suomi</span>
-                    </a>
-                  </li>
-                  
-                </ul>
-              </li>
-                Change Language  
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-                   <img src="images/en_flag.png" width="16" height="16" />
-                
-               </a>
-               <ul class="dropdown-menu pull-right">
-                   <li class="active">
-                       <a href="yhteystiedot-en.html" style="color:black">
-                         <img src="images/en_flag.png" width="16" height="16"  />
-                         
-                           English
-                       </a>
-                     </li>
-                     <li>
-                       <a href="yhteystiedot.html" style="color:black">
-                         <img  src="images/fin_flag.png" width="16" height="16"/>
-                         
-                           Suomi
-                       </a>
-                     </li>
-                     </ul>
-                     </li>
-
-              <!-- ja loppuu tänne :) t: amal -->
-            </div>
-          </div>
-        </nav>
-        <main role="main">
-
-          <!-- Main jumbotron for a primary marketing message or call to action -->
-          <div class="jumbotron image3">
-            <div class="container">
-              <h1 class="display-3 header">Ask for an offer</h1>
-
-            </div>
-          </div>
-        <!-- Tomin pohja loppuu-->
-
-        <div class="container">
-          <div class="row">
-
-
-            
-        
-
-        <div class="col-sm-5">
-          
-          <!--Section: Contact v.2-->
-<section class="mb-4">
-
-  <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-left my-4">Leave a message</h2>
-  
-
-  <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-                      <div class="md-form mb-2">
-                        <label for="name" class="">Name:</label>
-                          <input type="text" id="name" name="name" class="form-control">
-                          
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-                      <div class="md-form mb-2">
-                        <label for="email" class="">Email:</label>
-                          <input type="text" id="email" name="email" class="form-control">
-                          
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-              </div>
-              <!--Grid row-->
-
-              
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-
-                      <div class="md-form"><br>
-                        <label for="message">Message:</label>
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                          
-                      </div>
-
-                  </div>
-              </div>
-              <!--Grid row-->
-
-          </form>
-          <br>
-
-          <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-          </div>
-          <div class="status"></div>
-      </div>
-      <!--Grid column-->
-
-  </div>
-
-</section>
-<!--Section: Contact v.2-->
-
-        </div>
-<div class="col-sm-6">
-<h3 class="yotsikko"><b>Contact information:</b></h3><br>
-<h4><b>Tomi Suutari</b></h4>
-<p class="teksti">+358 (0)40 769 7905</p>
-<p class="teksti">info@honkaharjumokki.fi</p>
-</div>
-
-</div>
-</div>
-
-    
-<footer class="footer py-4 bg-dark text-white-50">
-  <p>Honkaharju-lomamökki Tomi Suutari <br>
-  <a href="mailto:info@honkaharjumokki.fi">info@honkaharjumokki.fi</a> <a href="tel:+358407697905">+358 (0)40 769 7905</a><br>
-  &copy; Honkaharju 2020</p>
-</footer>
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-
-        </body>
-        </html>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Honkaharju Cabin</a> <button aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" class=
+			"navbar-toggler" data-target="#navbarText" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="mokki.html">The Cabin</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aktiviteetit.html">Activities</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="kalenteri.html">Reservation Calendar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="yhteystiedot.html">Ask For an Offer</a>
+					</li>
+				</ul><!-- kieliasetuksen koodi alkaa tästä-->
+				<ul>
+					<li class="dropdown language-selector">
+						<ul class="dropdown-menu pull-right">
+							<li>
+								<a href="#"><span>English</span></a>
+							</li>
+							<li class="active">
+								<a href="#"><span>Suomi</span></a>
+							</li>
+						</ul>
+					</li>
+					<li style="list-style: none">Change Language <a class="dropdown-toggle" data-close-others="true" data-toggle="dropdown" href="#"><img height="16" src=
+					"images/en_flag.png" width="16"></a>
+						<ul class="dropdown-menu pull-right">
+							<li class="active">
+								<a href="yhteystiedot-en.html" style="color:black"><img height="16" src="images/en_flag.png" width="16"> English</a>
+							</li>
+							<li>
+								<a href="yhteystiedot.html" style="color:black"><img height="16" src="images/fin_flag.png" width="16"> Suomi</a>
+							</li>
+						</ul>
+					</li><!-- ja loppuu tänne :) t: amal -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main role="main">
+		<div class="jumbotron yhteystiedot">
+			<div class="container">
+				<h1 class="display-3 header">Ask for an offer</h1>
+			</div>
+		</div><!-- Tomin pohja loppuu-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5">
+					<section class="mb-4">
+						<h2 class="h1-responsive font-weight-bold text-left my-4">Leave a message</h2>
+						<div class="row">
+							<div class="col-md-9 mb-md-0 mb-5">
+								<form action="mail.php" id="contact-form" method="post" name="contact-form">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="md-form mb-2">
+												<label class="" for="name">Name:</label> <input class="form-control" id="name" name="name" type="text">
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="md-form mb-2">
+												<label class="" for="email">Email:</label> <input class="form-control" id="email" name="email" type="text">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<div class="md-form">
+												<br>
+												<label for="message">Message:</label> 
+												<textarea class="form-control md-textarea" id="message" name="message" rows="2"></textarea>
+											</div>
+										</div>
+									</div>
+								</form><br>
+								<div class="text-center text-md-left">
+									<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+								</div>
+								<div class="status"></div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-sm-6">
+					<h3 class="yotsikko"><b>Contact information:</b></h3><br>
+					<h4><b>Tomi Suutari</b></h4>
+					<p class="teksti">+358 (0)40 769 7905</p>
+					<p class="teksti">info@honkaharjumokki.fi</p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer py-4 bg-dark text-white-50">
+			<p>Honkaharju-lomamökki Tomi Suutari<br>
+			<a href="mailto:info@honkaharjumokki.fi">info@honkaharjumokki.fi</a> <a href="tel:+358407697905">+358 (0)40 769 7905</a><br>
+			&copy; Honkaharju 2020</p>
+		</footer><!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+		</script> <!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+		</script> <!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+		</script> 
+	</main>
+</body>
+</html>
