@@ -60,11 +60,6 @@ main{
   font-size: larger;
 }
 
-.pad60{
-  padding-top: 60px;
-}
-
-
 table{
 
   border-collapse: collapse;
@@ -90,6 +85,7 @@ th, td {
 
 .haaleeharmaabg{
   background-color: rgb(241, 241, 241);
+  padding-top: 60px;
 }
 
 /* julian läpsytykset lightboxii */
